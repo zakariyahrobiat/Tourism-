@@ -7,6 +7,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   width: 100vw;
   background: url(./images/background-home-mobile.jpg);
   object-fit: contain;
@@ -29,17 +30,31 @@ body .home-container .nav-container .nav-menu {
   display: none;
 }
 body .home-container .nav-container .show-menu {
-  display: block;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row-reverse;
+  justify-content: space-between;
   position: absolute;
-  right: 3rem;
-  top: 2rem;
+  right: 0;
+  top: 0;
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(40.774227142333984px);
+
+  width: 15.875rem;
+  height: 41.6875rem;
+  flex-shrink: 0;
+  padding: 1.5rem;
+}
+body .home-container .nav-container .show-menu ul {
+  padding-top: 3rem;
 }
 
 body .home-container .nav-container .show-menu ul li a {
   text-decoration: none;
   color: white;
-  line-height: 2;
-  font-size: 1.2rem;
+  line-height: 3;
+  font-size: 1rem;
+  letter-spacing: 0.16875rem;
 }
 @media screen and (min-width: 778px) {
   body {
@@ -47,12 +62,21 @@ body .home-container .nav-container .show-menu ul li a {
     object-fit: contain;
     background-repeat: no-repeat;
     background-size: 100vw;
+    padding: 0 0 0 1.5rem;
   }
-  body .home-container .nav-container .hamburger {
+  body .home-container .nav-container {
+    padding-right: 0;
+  }
+  body .home-container .nav-container .hamburger,
+  body .home-container .nav-container .close {
     display: none;
   }
+
   body .home-container .nav-container .nav-menu {
     display: flex;
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(40.774227142333984px);
+    padding: 2rem;
   }
   body .home-container .nav-container .nav-menu ul {
     display: flex;
@@ -69,5 +93,6 @@ body .home-container .nav-container .show-menu ul li a {
 @media screen and (min-width: 1200px) {
   body {
     background: url("/images/background-home-desktop.jpg");
+    padding: 1.5rem 0 0 1.5rem;
   }
 }
