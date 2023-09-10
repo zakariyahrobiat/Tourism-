@@ -44,7 +44,7 @@ body .body-container .circle {
 }
 @media screen and (min-width: 778px) {
   body .body-container {
-    width: 50%;
+    width: 80%;
     text-align: center;
     margin: auto;
   }

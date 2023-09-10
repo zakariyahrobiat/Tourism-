@@ -1,0 +1,114 @@
+body .body-container .body img {
+  width: 50%;
+  height: 50%;
+}
+li {
+  list-style: none;
+}
+body .body-container .body .name-container ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding-top: 1rem;
+}
+
+body .body-container .body .name-container ul li p {
+  color: #d0d6f9;
+  font-family: Barlow Condensed;
+  font-size: 1rem;
+
+  font-weight: 400;
+
+  letter-spacing: 0.16875rem;
+}
+body .body-container .body p {
+  padding: 0;
+}
+body .body-container .body .destination {
+  padding: 1.5rem 0;
+}
+body .body-container .body .head {
+  color: #fff;
+  text-align: center;
+  font-family: Bellefair;
+  font-size: 3.5rem;
+  font-weight: 400;
+}
+
+body .body-container .body .text {
+  color: #d0d6f9;
+  text-align: center;
+  font-family: Barlow;
+  font-size: 0.9375rem;
+
+  font-weight: 400;
+  line-height: 1.5625rem;
+}
+body .body-container .body hr {
+  margin: 1.5rem 0;
+}
+body .body-container .body .distance,
+body .body-container .body .time {
+  color: #fff;
+  text-align: center;
+  font-family: Bellefair;
+  font-size: 1.75rem;
+  font-weight: 400;
+  padding-bottom: 1.5rem;
+}
+body .body-container .body .speed {
+  color: #d0d6f9;
+  text-align: center;
+  font-family: Barlow Condensed;
+  font-size: 0.875rem;
+
+  font-weight: 400;
+
+  letter-spacing: 0.14763rem;
+}
+@media screen and (min-width: 778px) {
+  body .body-container {
+    width: 100%;
+    padding: 0 4rem 0 2rem;
+  }
+
+  body .body-container .body .destination {
+    text-align: left;
+    padding: 3rem 0;
+  }
+  body .body-container .body .name-container ul {
+    padding: 2rem;
+    gap: 3rem;
+  }
+  body .body-container .body .head {
+    font-size: 5rem;
+  }
+  body .body-container .body .text {
+    font-size: 1rem;
+  }
+  body .body-container .body .distance-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+    align-items: center;
+  }
+  body .body-container .body hr {
+    margin: 2rem 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  body .body-container {
+    width: 100%;
+    padding-top: 5rem;
+
+    /* align-items: center; */
+    /* justify-content: center; */
+  }
+  body .body-container .body {
+    /* width: 100vw; */
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    margin: 0;
+  }
+}
