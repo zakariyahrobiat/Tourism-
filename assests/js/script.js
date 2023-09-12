@@ -65,3 +65,17 @@ function check(name) {
     time.innerHTML = item.time;
   });
 }
+crewData = [
+  {
+    img: "../assessts/images/crew/image-douglas-hurley.png",
+    name: "douglas hurley",
+    job: "Commander",
+    text: "Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut. He launched into space for the third time as commander of Crew Dragon Demo-2.",
+  },
+  {
+    img: "../assessts/images/crew/image-douglas-hurley.png",
+    name: "douglas hurley",
+    job: "Mission Specialist ",
+    text: "Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut. He launched into space for the third time as commander of Crew Dragon Demo-2.",
+  },
+];
