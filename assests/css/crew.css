@@ -1,5 +1,38 @@
 body {
   background: url(../images/crew/background-crew-mobile.jpg);
+  object-fit: contain;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  overflow: hidden;
+}
+
+body .body-container .body {
+  width: 100%;
+}
+body .body-container .body .crew {
+  width: 100%;
+  object-fit: cover;
+}
+body .body-container .body .crew ul {
+  display: flex;
+  flex-direction: row;
+  transition: 1000s linear;
+  width: 100%;
+
+  /* transform: translateX(-100%); */
+}
+body .body-container .body .crew ul li {
+  width: 100vw;
+}
+
+body .body-container .body p {
+  padding: 0;
+}
+body .body-container .body img {
+  width: 100vw;
+  height: 20rem;
+  object-fit: contain;
 }
 @media screen and (min-width: 778px) {
   body {
