@@ -1,3 +1,6 @@
+body {
+  background: url(../images/background-home-mobile.jpg);
+}
 body .body-container p {
   color: #d0d6f9;
   text-align: center;
@@ -43,8 +46,11 @@ body .body-container .circle {
   margin-top: 2rem;
 }
 @media screen and (min-width: 778px) {
+  body {
+    background: url("../images/background-home-tablet.jpg");
+  }
   body .body-container {
-    width: 80%;
+    width: 70%;
     text-align: center;
     margin: auto;
   }
@@ -67,6 +73,9 @@ body .body-container .circle {
   }
 }
 @media screen and (min-width: 1200px) {
+  body {
+    background: url("../images/background-home-desktop.jpg");
+  }
   body .body-container {
     width: 100%;
     padding-top: 5rem;

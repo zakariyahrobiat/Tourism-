@@ -32,20 +32,13 @@ crewData = [
   },
 ];
 let count = 0;
-ul = document.createElement("ul");
 function display() {
   current = crewData[count];
-
-  const li = document.createElement("li");
-  li.innerHTML = `<div><p>${current.name}</p> <img src=${current.img} > <p>${current.job}</p> <p>${current.text}</p> </div>`;
-  ul.style.transform = `translateX(-${10 * count}%)`;
-  ul.appendChild(li);
-  //   person.src = `${current.img}`;
-  //   pname.innerHTML = `${current.name}`;
-  //   job.innerHTML = current.job;
-  //   text.innerHTML = current.text;
+  person.src = `${current.img}`;
+  pname.innerHTML = `${current.name}`;
+  job.innerHTML = current.job;
+  text.innerHTML = current.text;
 }
-crew.appendChild(ul);
 // btn.addEventListener("click", () => {
 function slider() {
   count++;
@@ -55,16 +48,15 @@ function slider() {
 
   display();
 }
-//
-//
+// ul = document.createElement("ul");
+// crewData.forEach((item) => {
 //   console.log(item);
-//
+//   const li = document.createElement("li");
 //   li.innerHTML = `<div class="slider"> <div><p>${item.job}</p> <p>${item.name}</p> <img src=${item.img} <p>${item.text}</div></p></div>`;
 //   console.log(li);
-//
+//   ul.appendChild(li);
 // });
 
-//
+// crew.appendChild(ul);
 
 setInterval(slider, 1000);
-//

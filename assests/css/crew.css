@@ -1,29 +1,27 @@
 body {
   background: url(../images/crew/background-crew-mobile.jpg);
-  object-fit: contain;
-  background-repeat: no-repeat;
-  background-size: cover;
   width: 100vw;
   overflow: hidden;
 }
-
 body .body-container .body {
   width: 100%;
 }
+
 body .body-container .body .crew {
-  width: 100%;
-  object-fit: cover;
+  /* display: flex; */
+  transition: all 1s linear;
 }
 body .body-container .body .crew ul {
+  /* width: 100vw; */
   display: flex;
   flex-direction: row;
   transition: 1000s linear;
-  width: 100%;
+  /* width: 100%; */
 
   /* transform: translateX(-100%); */
 }
 body .body-container .body .crew ul li {
-  width: 100vw;
+  /* width: 100%; */
 }
 
 body .body-container .body p {
