@@ -1,5 +1,7 @@
 body {
   background: url(../images/background-home-mobile.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 body .body-container p {
   color: #d0d6f9;
@@ -48,6 +50,8 @@ body .body-container .circle {
 @media screen and (min-width: 778px) {
   body {
     background: url("../images/background-home-tablet.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   body .body-container {
     width: 70%;
@@ -75,6 +79,8 @@ body .body-container .circle {
 @media screen and (min-width: 1200px) {
   body {
     background: url("../images/background-home-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   body .body-container {
     width: 100%;

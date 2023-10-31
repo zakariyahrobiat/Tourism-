@@ -1,3 +1,8 @@
+body {
+  background-image: url("../images/destination/background-destination-mobile.jpg");
+  background-repeat: no-repeat;
+  width: 100vw;
+}
 body .body-container .body img {
   width: 50%;
   height: 50%;
@@ -68,6 +73,12 @@ body .body-container .body .speed {
   letter-spacing: 0.14763rem;
 }
 @media screen and (min-width: 778px) {
+  body {
+    background-image: url("../images/destination/background-destination-tablet.jpg");
+    background-repeat: no-repeat;
+
+    background-size: cover;
+  }
   body .body-container {
     width: 100%;
     padding: 0 4rem 0 2rem;
@@ -98,6 +109,11 @@ body .body-container .body .speed {
   }
 }
 @media screen and (min-width: 1200px) {
+  body {
+    background-image: url("../images/destination/background-destination-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   body .body-container {
     display: flex;
     /* padding-top: 5rem; */

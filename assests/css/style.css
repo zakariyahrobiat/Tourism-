@@ -65,8 +65,8 @@ body .home-container .nav-container .show-menu ul li a {
     background: url("../images/background-home-tablet.jpg");
     object-fit: contain;
     background-repeat: no-repeat;
-    background-size: 100vw;
-    padding: 0 0 0 1.5rem;
+    background-size: cover;
+    padding: 0;
   }
   body .home-container .nav-container {
     padding-right: 0;
@@ -97,6 +97,8 @@ body .home-container .nav-container .show-menu ul li a {
 @media screen and (min-width: 1200px) {
   body {
     background: url("../images/background-home-desktop.jpg");
-    padding: 1.5rem 0 0 1.5rem;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
